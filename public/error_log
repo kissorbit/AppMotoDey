@@ -1,0 +1,74 @@
+[16-Jul-2018 11:30:02 UTC] PHP Warning:  Uncaught ErrorException: require(/home/an2y99zrmvhz/public_html/AppBuilderV2/app/Http/Routes/users.php): failed to open stream: No such file or directory in /home/an2y99zrmvhz/public_html/AppBuilderV2/routes/web.php:46
+Stack trace:
+#0 /home/an2y99zrmvhz/public_html/AppBuilderV2/routes/web.php(46): Illuminate\Foundation\Bootstrap\HandleExceptions->handleError(2, 'require(/home/a...', '/home/an2y99zrm...', 46, Array)
+#1 /home/an2y99zrmvhz/public_html/AppBuilderV2/routes/web.php(46): require()
+#2 /home/an2y99zrmvhz/public_html/AppBuilderV2/vendor/laravel/framework/src/Illuminate/Routing/Router.php(389): Illuminate\Routing\Router->{closure}(Object(Illuminate\Routing\Router))
+#3 /home/an2y99zrmvhz/public_html/AppBuilderV2/vendor/laravel/framework/src/Illuminate/Routing/Router.php(349): Illuminate\Routing\Router->loadRoutes(Object(Closure))
+#4 /home/an2y99zrmvhz/public_html/AppBuilderV2/vendor/laravel/framework/src/Illuminate/Support/Facades/Facade.php(221): Illuminate\Routing\Router->group(Array, Object(Closure))
+ in /home/an2y99zrmvhz/public_html/AppBuilderV2/routes/web.php on line 46
+[16-Jul-2018 11:30:02 UTC] PHP Fatal error:  Illuminate\Routing\Router::{closure}(): Failed opening required '/home/an2y99zrmvhz/public_html/AppBuilderV2/app/Http/Routes/users.php' (include_path='.:/opt/alt/php71/usr/share/pear') in /home/an2y99zrmvhz/public_html/AppBuilderV2/routes/web.php on line 46
+[16-Jul-2018 11:31:14 UTC] PHP Warning:  Uncaught ErrorException: require(/home/an2y99zrmvhz/public_html/AppBuilderV2/app/Routes/users.php): failed to open stream: No such file or directory in /home/an2y99zrmvhz/public_html/AppBuilderV2/routes/web.php:46
+Stack trace:
+#0 /home/an2y99zrmvhz/public_html/AppBuilderV2/routes/web.php(46): Illuminate\Foundation\Bootstrap\HandleExceptions->handleError(2, 'require(/home/a...', '/home/an2y99zrm...', 46, Array)
+#1 /home/an2y99zrmvhz/public_html/AppBuilderV2/routes/web.php(46): require()
+#2 /home/an2y99zrmvhz/public_html/AppBuilderV2/vendor/laravel/framework/src/Illuminate/Routing/Router.php(389): Illuminate\Routing\Router->{closure}(Object(Illuminate\Routing\Router))
+#3 /home/an2y99zrmvhz/public_html/AppBuilderV2/vendor/laravel/framework/src/Illuminate/Routing/Router.php(349): Illuminate\Routing\Router->loadRoutes(Object(Closure))
+#4 /home/an2y99zrmvhz/public_html/AppBuilderV2/vendor/laravel/framework/src/Illuminate/Support/Facades/Facade.php(221): Illuminate\Routing\Router->group(Array, Object(Closure))
+#5 /h in /home/an2y99zrmvhz/public_html/AppBuilderV2/routes/web.php on line 46
+[16-Jul-2018 11:31:14 UTC] PHP Fatal error:  Illuminate\Routing\Router::{closure}(): Failed opening required '/home/an2y99zrmvhz/public_html/AppBuilderV2/app/Routes/users.php' (include_path='.:/opt/alt/php71/usr/share/pear') in /home/an2y99zrmvhz/public_html/AppBuilderV2/routes/web.php on line 46
+[16-Jul-2018 11:33:05 UTC] PHP Warning:  Uncaught ErrorException: require(/home/an2y99zrmvhz/public_html/AppBuilderV2/app/users.php): failed to open stream: No such file or directory in /home/an2y99zrmvhz/public_html/AppBuilderV2/routes/web.php:46
+Stack trace:
+#0 /home/an2y99zrmvhz/public_html/AppBuilderV2/routes/web.php(46): Illuminate\Foundation\Bootstrap\HandleExceptions->handleError(2, 'require(/home/a...', '/home/an2y99zrm...', 46, Array)
+#1 /home/an2y99zrmvhz/public_html/AppBuilderV2/routes/web.php(46): require()
+#2 /home/an2y99zrmvhz/public_html/AppBuilderV2/vendor/laravel/framework/src/Illuminate/Routing/Router.php(389): Illuminate\Routing\Router->{closure}(Object(Illuminate\Routing\Router))
+#3 /home/an2y99zrmvhz/public_html/AppBuilderV2/vendor/laravel/framework/src/Illuminate/Routing/Router.php(349): Illuminate\Routing\Router->loadRoutes(Object(Closure))
+#4 /home/an2y99zrmvhz/public_html/AppBuilderV2/vendor/laravel/framework/src/Illuminate/Support/Facades/Facade.php(221): Illuminate\Routing\Router->group(Array, Object(Closure))
+#5 /home/an2 in /home/an2y99zrmvhz/public_html/AppBuilderV2/routes/web.php on line 46
+[16-Jul-2018 11:33:05 UTC] PHP Fatal error:  Illuminate\Routing\Router::{closure}(): Failed opening required '/home/an2y99zrmvhz/public_html/AppBuilderV2/app/users.php' (include_path='.:/opt/alt/php71/usr/share/pear') in /home/an2y99zrmvhz/public_html/AppBuilderV2/routes/web.php on line 46
+[16-Jul-2018 11:35:29 UTC] PHP Warning:  Uncaught ErrorException: require(/home/an2y99zrmvhz/public_html/AppBuilderV2/Routes/users.php): failed to open stream: No such file or directory in /home/an2y99zrmvhz/public_html/AppBuilderV2/routes/web.php:46
+Stack trace:
+#0 /home/an2y99zrmvhz/public_html/AppBuilderV2/routes/web.php(46): Illuminate\Foundation\Bootstrap\HandleExceptions->handleError(2, 'require(/home/a...', '/home/an2y99zrm...', 46, Array)
+#1 /home/an2y99zrmvhz/public_html/AppBuilderV2/routes/web.php(46): require()
+#2 /home/an2y99zrmvhz/public_html/AppBuilderV2/vendor/laravel/framework/src/Illuminate/Routing/Router.php(389): Illuminate\Routing\Router->{closure}(Object(Illuminate\Routing\Router))
+#3 /home/an2y99zrmvhz/public_html/AppBuilderV2/vendor/laravel/framework/src/Illuminate/Routing/Router.php(349): Illuminate\Routing\Router->loadRoutes(Object(Closure))
+#4 /home/an2y99zrmvhz/public_html/AppBuilderV2/vendor/laravel/framework/src/Illuminate/Support/Facades/Facade.php(221): Illuminate\Routing\Router->group(Array, Object(Closure))
+#5 /home/ in /home/an2y99zrmvhz/public_html/AppBuilderV2/routes/web.php on line 46
+[16-Jul-2018 11:35:29 UTC] PHP Fatal error:  Illuminate\Routing\Router::{closure}(): Failed opening required '/home/an2y99zrmvhz/public_html/AppBuilderV2/Routes/users.php' (include_path='.:/opt/alt/php71/usr/share/pear') in /home/an2y99zrmvhz/public_html/AppBuilderV2/routes/web.php on line 46
+[16-Jul-2018 11:39:16 UTC] PHP Warning:  Uncaught ErrorException: require(/home/an2y99zrmvhz/public_html/AppBuilderV2/app/Http/Routes/CrudRoutes/Bookcategories.php): failed to open stream: No such file or directory in /home/an2y99zrmvhz/public_html/AppBuilderV2/routes/CrudRoutes.php:2
+Stack trace:
+#0 /home/an2y99zrmvhz/public_html/AppBuilderV2/routes/CrudRoutes.php(2): Illuminate\Foundation\Bootstrap\HandleExceptions->handleError(2, 'require(/home/a...', '/home/an2y99zrm...', 2, Array)
+#1 /home/an2y99zrmvhz/public_html/AppBuilderV2/routes/CrudRoutes.php(2): require()
+#2 /home/an2y99zrmvhz/public_html/AppBuilderV2/routes/web.php(69): require('/home/an2y99zrm...')
+#3 /home/an2y99zrmvhz/public_html/AppBuilderV2/vendor/laravel/framework/src/Illuminate/Routing/Router.php(389): Illuminate\Routing\Router->{closure}(Object(Illuminate\Routing\Router))
+#4 /home/an2y99zrmvhz/public_html/AppBuilderV2/vendor/laravel/framework/src/Illuminate/Routing/Router.php(349): Illuminate\Routing\Router->loadRoutes(Object(Closure))
+#5 /home/an2y99zrmvhz/public_html/AppBuilde in /home/an2y99zrmvhz/public_html/AppBuilderV2/routes/CrudRoutes.php on line 2
+[16-Jul-2018 11:39:16 UTC] PHP Fatal error:  Illuminate\Routing\Router::main(): Failed opening required '/home/an2y99zrmvhz/public_html/AppBuilderV2/app/Http/Routes/CrudRoutes/Bookcategories.php' (include_path='.:/opt/alt/php71/usr/share/pear') in /home/an2y99zrmvhz/public_html/AppBuilderV2/routes/CrudRoutes.php on line 2
+[16-Jul-2018 11:40:07 UTC] PHP Warning:  Uncaught ErrorException: require(/home/an2y99zrmvhz/public_html/AppBuilderV2/app/Http/Routes/CrudRoutes/Bookcategories.php): failed to open stream: No such file or directory in /home/an2y99zrmvhz/public_html/AppBuilderV2/routes/CrudRoutes.php:2
+Stack trace:
+#0 /home/an2y99zrmvhz/public_html/AppBuilderV2/routes/CrudRoutes.php(2): Illuminate\Foundation\Bootstrap\HandleExceptions->handleError(2, 'require(/home/a...', '/home/an2y99zrm...', 2, Array)
+#1 /home/an2y99zrmvhz/public_html/AppBuilderV2/routes/CrudRoutes.php(2): require()
+#2 /home/an2y99zrmvhz/public_html/AppBuilderV2/routes/web.php(72): require('/home/an2y99zrm...')
+#3 /home/an2y99zrmvhz/public_html/AppBuilderV2/vendor/laravel/framework/src/Illuminate/Routing/Router.php(389): Illuminate\Routing\Router->{closure}(Object(Illuminate\Routing\Router))
+#4 /home/an2y99zrmvhz/public_html/AppBuilderV2/vendor/laravel/framework/src/Illuminate/Routing/Router.php(349): Illuminate\Routing\Router->loadRoutes(Object(Closure))
+#5 /home/an2y99zrmvhz/public_html/AppBuilde in /home/an2y99zrmvhz/public_html/AppBuilderV2/routes/CrudRoutes.php on line 2
+[16-Jul-2018 11:40:07 UTC] PHP Fatal error:  Illuminate\Routing\Router::main(): Failed opening required '/home/an2y99zrmvhz/public_html/AppBuilderV2/app/Http/Routes/CrudRoutes/Bookcategories.php' (include_path='.:/opt/alt/php71/usr/share/pear') in /home/an2y99zrmvhz/public_html/AppBuilderV2/routes/CrudRoutes.php on line 2
+[17-Jul-2018 21:33:53 UTC] PHP Fatal error:  Class 'App\Model' not found in /home/an2y99zrmvhz/public_html/AppBuilderV2/app/User.php on line 10
+[17-Jul-2018 21:34:56 UTC] PHP Fatal error:  Class App\User contains 6 abstract methods and must therefore be declared abstract or implement the remaining methods (Illuminate\Contracts\Auth\Authenticatable::getAuthIdentifierName, Illuminate\Contracts\Auth\Authenticatable::getAuthIdentifier, Illuminate\Contracts\Auth\Authenticatable::getAuthPassword, ...) in /home/an2y99zrmvhz/public_html/AppBuilderV2/app/User.php on line 11
+[18-Jul-2018 20:03:16 UTC] PHP Fatal error:  Class 'App\Eloquent' not found in /home/an2y99zrmvhz/public_html/AppBuilderV2/app/User.php on line 10
+[18-Jul-2018 20:03:44 UTC] PHP Fatal error:  Class 'App\Eloquent' not found in /home/an2y99zrmvhz/public_html/AppBuilderV2/app/User.php on line 11
+[20-Jul-2018 09:56:23 UTC] PHP Warning:  require(/home/an2y99zrmvhz/public_html/AppBuilderV2/vendor/composer/../yajra/laravel-datatables-oracle/src/helper.php): failed to open stream: No such file or directory in /home/an2y99zrmvhz/public_html/AppBuilderV2/vendor/composer/autoload_real.php on line 66
+[20-Jul-2018 09:56:23 UTC] PHP Fatal error:  require(): Failed opening required '/home/an2y99zrmvhz/public_html/AppBuilderV2/vendor/composer/../yajra/laravel-datatables-oracle/src/helper.php' (include_path='.:/opt/alt/php71/usr/share/pear') in /home/an2y99zrmvhz/public_html/AppBuilderV2/vendor/composer/autoload_real.php on line 66
+[20-Jul-2018 09:56:32 UTC] PHP Warning:  require(/home/an2y99zrmvhz/public_html/AppBuilderV2/vendor/composer/../yajra/laravel-datatables-oracle/src/helper.php): failed to open stream: No such file or directory in /home/an2y99zrmvhz/public_html/AppBuilderV2/vendor/composer/autoload_real.php on line 66
+[20-Jul-2018 09:56:32 UTC] PHP Fatal error:  require(): Failed opening required '/home/an2y99zrmvhz/public_html/AppBuilderV2/vendor/composer/../yajra/laravel-datatables-oracle/src/helper.php' (include_path='.:/opt/alt/php71/usr/share/pear') in /home/an2y99zrmvhz/public_html/AppBuilderV2/vendor/composer/autoload_real.php on line 66
+[20-Jul-2018 09:56:35 UTC] PHP Warning:  require(/home/an2y99zrmvhz/public_html/AppBuilderV2/vendor/composer/../yajra/laravel-datatables-oracle/src/helper.php): failed to open stream: No such file or directory in /home/an2y99zrmvhz/public_html/AppBuilderV2/vendor/composer/autoload_real.php on line 66
+[20-Jul-2018 09:56:40 UTC] PHP Fatal error:  require(): Failed opening required '/home/an2y99zrmvhz/public_html/AppBuilderV2/vendor/composer/../yajra/laravel-datatables-oracle/src/helper.php' (include_path='.:/opt/alt/php71/usr/share/pear') in /home/an2y99zrmvhz/public_html/AppBuilderV2/vendor/composer/autoload_real.php on line 66
+[21-Jul-2018 20:10:19 UTC] PHP Warning:  Uncaught ErrorException: require(/home/an2y99zrmvhz/public_html/AppBuilderV2/routes/CrudRoutes.php): failed to open stream: No such file or directory in /home/an2y99zrmvhz/public_html/AppBuilderV2/routes/web.php:72
+Stack trace:
+#0 /home/an2y99zrmvhz/public_html/AppBuilderV2/routes/web.php(72): Illuminate\Foundation\Bootstrap\HandleExceptions->handleError(2, 'require(/home/a...', '/home/an2y99zrm...', 72, Array)
+#1 /home/an2y99zrmvhz/public_html/AppBuilderV2/routes/web.php(72): require()
+#2 /home/an2y99zrmvhz/public_html/AppBuilderV2/vendor/laravel/framework/src/Illuminate/Routing/Router.php(389): Illuminate\Routing\Router->{closure}(Object(Illuminate\Routing\Router))
+#3 /home/an2y99zrmvhz/public_html/AppBuilderV2/vendor/laravel/framework/src/Illuminate/Routing/Router.php(349): Illuminate\Routing\Router->loadRoutes(Object(Closure))
+#4 /home/an2y99zrmvhz/public_html/AppBuilderV2/vendor/laravel/framework/src/Illuminate/Support/Facades/Facade.php(221): Illuminate\Routing\Router->group(Array, Object(Closure))
+#5 / in /home/an2y99zrmvhz/public_html/AppBuilderV2/routes/web.php on line 72
+[21-Jul-2018 20:10:19 UTC] PHP Fatal error:  Illuminate\Routing\Router::{closure}(): Failed opening required '/home/an2y99zrmvhz/public_html/AppBuilderV2/routes/CrudRoutes.php' (include_path='.:/opt/alt/php71/usr/share/pear') in /home/an2y99zrmvhz/public_html/AppBuilderV2/routes/web.php on line 72
+[22-Sep-2018 08:53:09 UTC] PHP Fatal error:  Cannot use isset() on the result of an expression (you can use "null !== expression" instead) in /home/an2y99zrmvhz/public_html/AppBuilderV2/app/Http/Controllers/UsersController.php on line 226
